@@ -1,0 +1,24 @@
+# Understand the Question
+
+- Build Simple relational database schema
+  - Database of movies
+    - Name
+    - Year of release
+    - Ratings
+    - Genres(multiple)
+    - Actors(multiple)
+    - Director
+    - Technicians
+    - **Thumbnail** ?
+- Create Relational Schema
+  - With proper relationships between different models/tables
+  - Use ORM(Object Relational Mapper)
+- API
+  - GET and POST
+    - fetch a parrticular Movie
+    - Add or Update a movie(also related data)
+    - GET - Search capabilities
+      - Actor and their movie
+      - Directors and their movies
+    - POST - Deletion
+      - Removing actor from database

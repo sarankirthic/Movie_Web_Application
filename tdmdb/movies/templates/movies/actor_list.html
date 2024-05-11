@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<h1>Actors</h1>
+	<ul>
+		{% for actor in actors %}
+			<li>
+				<a href="{% url 'actor-detail' actor.pk %}">{{ actor.first_name }} {{ actor.last_name }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+{% endblock %}
