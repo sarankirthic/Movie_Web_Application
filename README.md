@@ -13,7 +13,7 @@
 	- Actors(multiple)
 	- Director
 	- Technicians
-	- **Thumbnail** ?
+	- Thumbnail
 
 - API
 	- GET - To retrieve movies and its details
